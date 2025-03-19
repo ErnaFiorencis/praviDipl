@@ -9,9 +9,9 @@ function App(){
     return (
         <Router>
             <Routes>
-                <Route path="/" element={<Welcome />} />
-                <Route path="/login" element={<Login />} />
-                <Route path="/register" element={<Register />} />
+                <Route path="praviDipl/" element={<Welcome />} />
+                <Route path="praviDipl/login" element={<Login />} />
+                <Route path="praviDipl/register" element={<Register />} />
             </Routes>
         </Router>
     );
